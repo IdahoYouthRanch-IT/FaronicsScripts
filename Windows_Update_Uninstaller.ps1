@@ -3,4 +3,4 @@
 # Steve Shapiro 2023-06
 # Source: https://docs.faronics.com/faronicsdeploy/custom-scripts-powershell-vb-batch/custom-scripts-library/uninstall-a-windows-update
 #
-wusa /uninstall /KB:890830 /quiet /forcerestart
+wusa /uninstall /KB:890830 /forcerestart
