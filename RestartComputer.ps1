@@ -1,5 +1,5 @@
 ﻿# Define the target time (e.g., 15:30)
-$targetTime = Get-Date -Hour 15 -Minute 09
+$targetTime = Get-Date -Hour 15 -Minute 45
 
 # Loop until the current time reaches the target time
 while ((Get-Date) -lt $targetTime) {
