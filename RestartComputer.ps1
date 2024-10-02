@@ -1,5 +1,5 @@
 ﻿# Define the target time (e.g., 15:30)
-$targetTime = Get-Date -Hour 15 -Minute 45
+$targetTime = Get-Date -Hour 11 -Minute 50
 
 # Loop until the current time reaches the target time
 while ((Get-Date) -lt $targetTime) {
@@ -8,8 +8,6 @@ while ((Get-Date) -lt $targetTime) {
 
 # Execution will resume once the target time is reached
 
-Write-Host "Resuming execution now."
+msg.exe * "Hello from Faronics"
 
-Add-Type -AssemblyName PresentationFramework
-[System.Windows.MessageBox]::Show('Hello, this is a pop-up message')
 # Restart-Computer -ComputerName IT-2041 -Force
