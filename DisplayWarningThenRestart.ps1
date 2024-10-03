@@ -1,5 +1,5 @@
-# Define the target time (e.g., 15:30). This must be run on the current day before 23:59
-$targetTime = Get-Date -Hour 11 -Minute 15
+# Define the target time (e.g., 15:30)
+$targetTime = Get-Date -Hour 11 -Minute 25
 
 # Loop until the current time reaches the target time
 while ((Get-Date) -lt $targetTime) {
@@ -18,18 +18,18 @@ Add-Type -AssemblyName System.Windows.Forms
     $objLabel.Location = New-Object System.Drawing.Size(300,150) 
     $objLabel.Size = New-Object System.Drawing.Size(300,300)
     $objLabel.Font = New-Object System.Drawing.Font("Arial",30)
-    $objLabel.Text = "Your computer will restart in a few seconds. Please save your work"
+    $objLabel.Text = "Your computer will restart in 30 seconds. Please save your work"
     $objForm.Controls.Add($objLabel)
 
 # Show the form
     $objForm.Show()| Out-Null
 
 # wait 30 seconds
-    Start-Sleep -Seconds 15
+    Start-Sleep -Seconds 30
     
 # destroy form
     $objForm.Close() | Out-Null
 
 #Restart Computer
     Start-Sleep -Seconds 2
-#    restart-Computer -force
+  #  restart-Computer -force
