@@ -1,5 +1,5 @@
-# Define the target time (e.g., 15:30)
-$targetTime = Get-Date -Hour 16 -Minute 45
+# Define the target time (e.g., 10:30)
+$targetTime = Get-Date -Hour 10 -Minute 25
 
 # Loop until the current time reaches the target time
 while ((Get-Date) -lt $targetTime) {
@@ -8,7 +8,7 @@ while ((Get-Date) -lt $targetTime) {
  
 Add-Type -AssemblyName System.Windows.Forms
 
-$TimeToRestart = 30   
+$TimeToRestart = 15   
 
 # Build Form
     $objForm = New-Object System.Windows.Forms.Form
@@ -43,5 +43,5 @@ While($TimeToRestart -ge 1){
     $objForm.Close() | Out-Null
 
 #Restart Computer
-    Start-Sleep -Seconds 2
+	Start-Sleep -Seconds 2
 	restart-Computer -force
