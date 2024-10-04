@@ -1,5 +1,5 @@
 # Define the target time (e.g., 15:30)
-$targetTime = Get-Date -Hour 14 -Minute 00
+$targetTime = Get-Date -Hour 12 -Minute 30
 
 # Loop until the current time reaches the target time
 while ((Get-Date) -lt $targetTime) {
@@ -10,6 +10,6 @@ while ((Get-Date) -lt $targetTime) {
 
 msg.exe * "Your computer is about to restart. Please save your work"
 
-Start-Sleep -Seconds 15
+Start-Sleep -Seconds 30
 
 Restart-Computer -Force
