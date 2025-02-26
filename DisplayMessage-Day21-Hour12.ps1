@@ -1,6 +1,6 @@
 Add-Type -AssemblyName System.Windows.Forms
 $TargetDayOfMonth = 26
-$targetTime = Get-Date -Hour 14 -Minute 20 -Format "yyyyMMddHHmm"
+$targetTime = Get-Date -Hour 14 -Minute 25 -Format "yyyyMMddHHmm"
 
 #Loop forever while the computer is running
 While (1 -ne 0) {
