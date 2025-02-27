@@ -1,1 +1,1 @@
-msg.exe * "This is a test message created 2-26 at 341 ^slash ^New Line ^new line 12345"
+msg.exe * "This is a test message created 2-26 at 341 \r\nnew line1 \r\r\nsecond new line"
