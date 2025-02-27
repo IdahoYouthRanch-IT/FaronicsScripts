@@ -1,1 +1,1 @@
-msg.exe * "This is a test message created 2-26 at 349" + Environment.NewLine + "second line"
+msg.exe * "This is a test message created 2-26 at 349" + Environment.NewLine + <br /> "second line"
