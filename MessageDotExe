@@ -1,1 +1,1 @@
-msg.exe * $args[0]
+msg.exe * "This is a test message"
