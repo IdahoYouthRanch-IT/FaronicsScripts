@@ -1,5 +1,5 @@
 $TargetDayOfMonth = 3
-$targetTime = Get-Date -Hour 15 -Minute 25 -Format "yyyyMMddHHmm"
+$targetTime = Get-Date -Hour 15 -Minute 35 -Format "yyyyMMddHHmm"
 
 #Loop forever while the computer is running
 
@@ -13,4 +13,4 @@ $TodaysDay = Get-date -Format "dd"
     Start-Sleep -Seconds 15
   } 
 
-msg.exe * /v /w /t:10000 Your computer will restart tonight to apply Windows Updates. Please save your work and log out before leaving.  If you do not want to restart, call the Helpdesk at (208)-992-5112 or send an email to Helpdesk@Youthranch.org
+msg.exe * /W Your computer will restart tonight to apply Windows Updates. Please save your work and log out before leaving.  If you do not want to restart, call the Helpdesk at (208)-992-5112 or send an email to Helpdesk@Youthranch.org
