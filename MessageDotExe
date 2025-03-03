@@ -1,5 +1,5 @@
 $TargetDayOfMonth = 3
-$targetTime = Get-Date -Hour 15 -Minute 15 -Format "yyyyMMddHHmm"
+$targetTime = Get-Date -Hour 15 -Minute 25 -Format "yyyyMMddHHmm"
 
 #Loop forever while the computer is running
 
