@@ -1,1 +1,2 @@
-msg.exe * "From: IYR IT Support                                                 Your computer will restart tonight to apply Windows Updates                  Please leave your computer running, save your work and log out before leaving                       If you do not want your computer to restart tonight, call the helpdesk at (208)-992-5112 or send an email to Helpdesk@youthranch.org"
+msg.exe * 'Your computer will restart tonight to apply Windows Updates.  Please leave your computer running, save your work and log out before leaving.  If you do not want to restart, call the helpdesk at (208)-992-5112 or send an email
+ to Helpdesk''
