@@ -1,1 +1,29 @@
+$TargetDayOfMonth = 3
+$targetTime = Get-Date -Hour 14 -Minute 02 -Format "yyyyMMddHHmm"
+
+#Loop forever while the computer is running
+While (1 -ne 0) {
+
+$TodaysDay = Get-date -Format "dd"
+
+#Loop Until current day = target day
+while ($TodaysDay -ne $TargetDayOfMonth) {
+    Start-Sleep -Seconds 3600
+    }
+
+#loop until current time = target time
+
+# Loop until the current time equals the target time
+  while ((Get-Date -Format "yyyyMMddHHmm") -ne $TargetTime)  {
+    Start-Sleep -Seconds 15
+  } 
+
+#sleep for 10 more seconds
+Start-Sleep -Seconds 10
+
 msg.exe * Your computer will restart tonight to apply Windows Updates.  Please save your work and log out before leaving.  If you do not want to restart, call the Helpdesk at (208)-992-5112 or send an email to Helpdesk@Youthranch.org
+
+#wait until start time has passed
+Start-Sleep -Seconds 55
+
+} #end forever loop
