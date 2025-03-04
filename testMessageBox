@@ -1,1 +1,1 @@
-MsgBox "Test message", 0, "Message box"
+MsgBox 'Test message', 0, 'Message box'
