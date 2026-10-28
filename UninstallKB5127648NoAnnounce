@@ -1,1 +1,1 @@
-wusa /uninstall /kb:5127648 /quiet /forcerestart
+wusa /uninstall /kb:5127648
