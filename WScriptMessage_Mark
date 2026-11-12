@@ -1,0 +1,13 @@
+$timeoutSecs = 30 * 60  # 30 minutes
+
+$response = (New-Object -ComObject WScript.Shell).Popup(
+
+    "Your computer will shut down at 2:30 PM. Press OK to shut down now, or Cancel to cancel.",
+
+    $timeoutSecs,
+
+    "Pending shutdown",
+
+    49  # 48 (Exclamation icon) + 1 (OK/Cancel buttons)
+
+)
