@@ -1,4 +1,4 @@
-$timeoutSecs = 30 * 60  # 30 minutes
+$timeoutSecs = 30 * 6a0  # 30 minutes
 
 $response = (New-Object -ComObject WScript.Shell).Popup(
 
